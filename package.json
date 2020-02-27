@@ -1,0 +1,23 @@
+{
+    "name": "loanapi",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel src/index.html",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Nauman Ali",
+    "license": "ISC",
+    "devDependencies": {
+        "parcel-bundler": "^1.12.4"
+    },
+    "dependencies": {
+        "@reach/router": "^1.3.1",
+        "react": "^16.13.0",
+        "react-dom": "^16.13.0"
+    },
+    "browserslist": [
+        "last 2 Chrome versions"
+    ]
+}
