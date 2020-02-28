@@ -21,7 +21,7 @@ const User = ({ apiKey }) => {
     }
 
     function handleSubmit(event) {
-        const url = `http://loan-api-269422.appspot.com/users?key=${apiKey}`;
+        const url = `https://loan-api-269422.appspot.com/users?key=${apiKey}`;
         const user = {
             incorporationDate: incorporationDate,
             loanPurpose: loanPurpose,

@@ -5,7 +5,7 @@ const User = ({ apiKey, id }) => {
     const [user, setUser] = React.useState([]);
 
     function getUser() {
-        const url = `http://loan-api-269422.appspot.com/users/${id}?key=${apiKey}`;
+        const url = `https://loan-api-269422.appspot.com/users/${id}?key=${apiKey}`;
         fetch(url)
             .then(response => {
                 return response.json();

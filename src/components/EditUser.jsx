@@ -2,7 +2,7 @@ import * as React from "react";
 
 const User = ({ apiKey, id }) => {
     function getUser() {
-        const url = `http://loan-api-269422.appspot.com/users/${id}?key=${apiKey}`;
+        const url = `https://loan-api-269422.appspot.com/users/${id}?key=${apiKey}`;
         fetch(url)
             .then(response => {
                 return response.json();
@@ -28,7 +28,7 @@ const User = ({ apiKey, id }) => {
     const [requestedAmount, setRequestedAmount] = React.useState();
 
     function handleSubmit(event) {
-        const url = `http://loan-api-269422.appspot.com/users/${id}?key=${apiKey}`;
+        const url = `https://loan-api-269422.appspot.com/users/${id}?key=${apiKey}`;
         const data = {
             incorporationDate: incorporationDate,
             loanPurpose: loanPurpose,

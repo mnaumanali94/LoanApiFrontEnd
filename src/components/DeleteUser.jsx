@@ -2,7 +2,7 @@ import * as React from "react";
 
 const DeleteUser = ({ apiKey, id }) => {
     function handleSubmit(event) {
-        const url = `http://loan-api-269422.appspot.com/users/${id}?key=${apiKey}`;
+        const url = `https://loan-api-269422.appspot.com/users/${id}?key=${apiKey}`;
         fetch(url, {
             method: "DELETE",
             mode: "no-cors", // no-cors, *cors, same-origin

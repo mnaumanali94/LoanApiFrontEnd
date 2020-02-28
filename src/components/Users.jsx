@@ -18,7 +18,7 @@ const Users = ({ apiKey }) => {
     ));
 
     function getUsers() {
-        const url = `http://loan-api-269422.appspot.com/users?key=${apiKey}`;
+        const url = `https://loan-api-269422.appspot.com/users?key=${apiKey}`;
         fetch(url)
             .then(response => {
                 return response.json();
